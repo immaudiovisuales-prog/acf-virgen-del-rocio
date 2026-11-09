@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#5b1022">
+  <title>A.C.F. Virgen del Rocío | Valmojado</title>
+  <meta name="description" content="Web oficial de la Asociación Cultural Flamenca Virgen del Rocío de Valmojado.">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Georgia, serif;
+      background: #faf7f3;
+      color: #241b1b;
+      line-height: 1.6;
+    }
+    header {
+      background: #5b1022;
+      color: white;
+      padding: 22px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .brand { font-size: 19px; font-weight: bold; }
+    nav { display: flex; gap: 20px; flex-wrap: wrap; }
+    nav a { color: white; text-decoration: none; font-size: 14px; }
+    .hero {
+      min-height: 490px;
+      padding: 90px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(135deg, #350914, #781c32);
+      color: white;
+    }
+    .hero .ornament { color: #d9b66d; font-size: 35px; }
+    .hero h1 { font-size: clamp(34px, 6vw, 58px); margin: 15px 0; }
+    .hero p { max-width: 650px; font-size: 18px; }
+    .button {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 13px 27px;
+      border: 1px solid #d9b66d;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    section { padding: 65px 8%; text-align: center; }
+    section h2 { color: #5b1022; font-size: 30px; margin-bottom: 18px; }
+    section p { max-width: 750px; margin: auto; }
+    .gold { color: #a17a32; }
+    .private {
+      background: #f0e9e3;
+      border-top: 1px solid #e2d5c8;
+      border-bottom: 1px solid #e2d5c8;
+    }
+    footer {
+      background: #241b1b;
+      color: #eee;
+      text-align: center;
+      padding: 28px 15px;
+      font-size: 13px;
+    }
+    @media (max-width: 600px) {
+      header { justify-content: center; text-align: center; }
+      nav { justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">A.C.F. VIRGEN DEL ROCÍO</div>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#asociacion">La asociación</a>
+      <a href="#actividades">Actividades</a>
+      <a href="#socios">Socios</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="ornament">✦ ✦ ✦</div>
+      <h1>Asociación Cultural Flamenca<br>Virgen del Rocío</h1>
+      <p>Tradición, cultura, flamenco y pasión por nuestras raíces.</p>
+      <a class="button" href="#asociacion">Descubre nuestra asociación</a>
+    </section>
+
+    <section id="asociacion">
+      <h2>Nuestra asociación</h2>
+      <p>
+        Bienvenidos a la Asociación Cultural Flamenca Virgen del Rocío
+        de Valmojado. Un espacio para compartir, disfrutar y mantener
+        viva la cultura flamenca.
+      </p>
+      <p class="gold" style="margin-top:20px;">VALMOJADO</p>
+    </section>
+
+    <section id="actividades">
+      <h2>Actividades y eventos</h2>
+      <p>Próximamente podrás consultar aquí nuestras actividades,
+      actuaciones, celebraciones y eventos culturales.</p>
+    </section>
+
+    <section class="private" id="socios">
+      <h2>Zona privada de socios</h2>
+      <p>Muy pronto, los socios podrán acceder a su espacio privado
+      para consultar información y participar en la gestión de la asociación.</p>
+      <a class="button" href="#socios">Acceso próximamente</a>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 A.C.F. Virgen del Rocío · Valmojado
+  </footer>
+</body>
+</html>
